@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "langchain-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["MuhammadAhsaanAbbasi <mahsaanabbasi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+sqlmodel = "^0.0.16"
+pytest = "^8.0.2"
+httpx = "^0.27.0"
+itsdangerous = "^2.1.2"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.9"
+python-multipart = "^0.0.9"
+types-requests = "^2.32.0.20240602"
+email-validator = "^2.1.1"
+transformers = "^4.44.2"
+openai = "^1.36.1"
+orjson = "^3.10.6"
+boto3 = "^1.34.143"
+langchain = "^0.3.0"
+langchain-core = "^0.3.2"
+langchain-community = "^0.3.0"
+langsmith = "^0.1.125"
+langserve = "^0.3.0"
+langchain-google-genai = "^2.0.0"
+langchain-huggingface = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
